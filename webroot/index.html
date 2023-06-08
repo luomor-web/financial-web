@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="preload" href="/fonts/ExpensifyMono-Bold.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyMono-Regular.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNeue-Bold.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNeue-BoldItalic.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNeue-Italic.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNeue-Regular.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNewKansas-Medium.woff2" as="font" crossorigin=""><link rel="preload" href="/fonts/ExpensifyNewKansas-MediumItalic.woff2" as="font" crossorigin=""><title>New Expensify</title><meta name="description" content="Corporate cards, reimbursements, receipt scanning, invoicing, and bill pay. One app, all free."><meta name="theme-color" content=""><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@expensify"><meta property="og:type" content="website"><meta property="og:site_name" content="New Expensify"><meta property="og:url" content="https://new.expensify.com"><meta property="og:title" content="New Expensify"><meta property="og:description" content="Corporate cards, reimbursements, receipt scanning, invoicing, and bill pay. One app, all free."><meta property="og:image" content="https://new.expensify.com/og-preview-image.png"><link rel="stylesheet" href="/css/fonts.css"><link rel="stylesheet" href="/css/pdf.css"><style>html,
+        body,
+        #root,
+        #root > div,
+        #root > div > div {
+            height: 100% !important;
+        }
+        :root {
+            color-scheme: dark !important;
+        }
+        * {
+            touch-action: pan-x pan-y;
+        }
+        body {
+           overflow: hidden;
+           overscroll-behavior: none;
+           touch-action: none;
+        }
+        #drag-area {
+            -webkit-app-region: drag;
+        }
+        #no-drag-area {
+            -webkit-app-region: no-drag;
+        }
+        input::placeholder {
+            user-select: none;
+            -webkit-user-select: none
+        }
+        .disable-select * {
+            -webkit-user-select: none !important;
+            -webkit-touch-callout: none !important;
+        }
+        :focus-visible {
+            outline: 0;
+            box-shadow: inset 0px 0px 0px 1px #5AB0FF;
+        }
+        :focus[data-focusvisible-polyfill] {
+            outline: 0;
+            box-shadow: inset 0px 0px 0px 1px #5AB0FF;
+        }
+        input:focus-visible, input:focus[data-focusvisible-polyfill],
+        select:focus-visible, select:focus[data-focusvisible-polyfill]  {
+            box-shadow: none;
+        }
+        ::-ms-reveal {
+            display: none;
+        }
+
+        /* Customizes the background and text colors for autofill inputs in Chrome */
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        textarea:-webkit-autofill,
+        textarea:-webkit-autofill:hover,
+        textarea:-webkit-autofill:focus,
+        select:-webkit-autofill,
+        select:-webkit-autofill:hover,
+        select:-webkit-autofill:focus {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #ffffff;
+            caret-color: #ffffff;
+        }
+
+        /* Prevent autofill from overlapping with the input label in Chrome */
+        div:has(input:-webkit-autofill) > label {
+            transform: translateY(var(--active-label-translate-y)) scale(var(--active-label-scale)) !important;
+            transition: transform var(--label-transition-duration);
+        }
+
+        @media screen and (min-width: 480px) { 
+            .splash-logo > svg { 
+                width: 104px; 
+                height: 104px; 
+            }
+        }
+
+        @media screen and (max-width: 479px) { 
+            .splash-logo > svg { 
+                width: 52px; 
+                height: 52px; 
+            }
+        }
+
+        #splash {
+            position: absolute; 
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-color: #061B09; 
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            transition-duration: 250ms;
+            transition-property: opacity;
+        }</style><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,interactive-widget=resizes-content"><link rel="shortcut icon" id="favicon" href="/favicon.png"><script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CResizeObserver&amp;flags=gated"></script><script defer="defer" src="/runtime-a84c5563f78b32d5cc01.bundle.js"></script><script defer="defer" src="/vendors-703b07707fbd1948582d.bundle.js"></script><script defer="defer" src="/main-1f6d8f10775f294ae542.bundle.js"></script></head><body><div style="position: absolute; top: 0; left: 0; right: 0; height: 30px;" id="drag-area"></div><div id="root"></div><div id="splash"><div class="splash-logo"> <!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 81 81" style="enable-background:new 0 0 81 81;" xml:space="preserve"><style>.st0{clip-path:url(#SVGID_00000139978272494792967570000017408633430176651448_);}
+	.st1{fill:#03D47C;}</style><g><defs><rect id="SVGID_1_" x="0.8" width="80" height="80"></rect></defs><clipPath id="SVGID_00000144338341264450383030000002729908262559559608_"><use xlink:href="#SVGID_1_" style="overflow:visible;"></use></clipPath><g style="clip-path:url(#SVGID_00000144338341264450383030000002729908262559559608_);"><path class="st1" d="M54.9,28.2v-8.3H26.6v40.3h28.2v-8.3H37v-7.7h14.4v-8.5H37v-7.3H54.9z"></path><path class="st1" d="M40.8,6.5C40.8,6.5,40.8,6.5,40.8,6.5c7.1,0,13.7,2.2,19.2,6c1.4,1,3.3,0.9,4.5-0.3l0,0
+			c1.3-1.3,1.3-3.5-0.3-4.7C57.5,2.8,49.5,0,40.8,0c-22.1,0-40,17.9-40,40c0,8.7,2.8,16.8,7.5,23.3c1.1,1.5,3.3,1.6,4.7,0.3l0,0
+			c1.2-1.2,1.3-3.1,0.3-4.5c-3.8-5.4-6-12-6-19.2C7.3,21.5,22.2,6.5,40.8,6.5C40.7,6.5,40.8,6.5,40.8,6.5L40.8,6.5z"></path><path class="st1" d="M73.7,17.4c-1.1-1.6-3.4-1.7-4.7-0.3l0,0c-1.2,1.2-1.3,3-0.4,4.4c3.5,5.3,5.6,11.7,5.6,18.5
+			c0,6.8-2.1,13.4-5.8,18.8c-0.9,1.4-0.9,3.3,0.3,4.5l0,0c1.4,1.4,3.6,1.3,4.7-0.3c4.6-6.5,7.3-14.4,7.3-23
+			C80.8,31.5,78.2,23.8,73.7,17.4z"></path><path class="st1" d="M40.8,73.5c-6.8,0-13.2-2.1-18.5-5.6c-1.4-0.9-3.3-0.8-4.4,0.4l0,0c-1.4,1.4-1.3,3.6,0.3,4.7
+			c6.4,4.4,14.2,7,22.6,7c8.4,0,16.4-2.7,23-7.3c1.6-1.1,1.7-3.3,0.3-4.7l0,0c-1.2-1.2-3.1-1.3-4.5-0.3
+			C54.2,71.3,47.7,73.5,40.8,73.5z"></path></g></g></svg></div></div></body></html>
